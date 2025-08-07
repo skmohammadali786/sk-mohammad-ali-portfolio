@@ -334,7 +334,16 @@ async function renderPortfolio() {
         '</div>' +
       '</section>';
     }
-
+// Footer
+    let footer = "";
+    if (data.footer && data.footer.enabled)        
+  footer = '<footer class="footer-bg-smoke py-8 text-center text-sm text-gray-600 dark:text-gray-400 mt-auto w-full">' +
+        '<div class="footer-content max-w-2xl mx-auto px-4">' + data.footer.copyright + framecvBadge + '</div>' +
+      '</footer>';
+    } else {
+      footer = '<footer class="bg-white dark:bg-darkTheme py-4 mt-auto w-full"></footer>';
+    }
+    
   
     // Combine all sections
     const content = nav + '<div class="main-content">' + hero + about + projects + experience + education + contact + social + '</div>' + footer;
