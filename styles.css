@@ -202,16 +202,7 @@ body {
       box-shadow: none;
       padding: 0.05em;
     }
-    .dark .framecv-badge {
-      background: rgba(255, 255, 255, 0.05);
-      border-color: rgba(255, 255, 255, 0.1);
-      color: rgba(255, 255, 255, 0.9);
-    }
-    .dark .framecv-badge:hover {
-      background: rgba(255, 255, 255, 0.1);
-      border-color: rgba(255, 255, 255, 0.2);
-      color: white;
-    }   
+    
 .hero-title-spaced {
   line-height: 1.22;
 }
