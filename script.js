@@ -342,7 +342,7 @@ async function renderPortfolio() {
       '</footer>';
     } else {
       footer = '<footer class="bg-white dark:bg-darkTheme py-4 mt-auto w-full"></footer>';
-    }
+  }
     
   
     // Combine all sections
